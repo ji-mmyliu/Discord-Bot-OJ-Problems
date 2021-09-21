@@ -1,0 +1,34 @@
+**Educational Contest 4 Problem 4 - Fetch!**
+Larry's dog Spot's toys are all over the place, and Larry is determined to put them back in order. Each of the toys is placed in a line, has an integer height, and should be sorted in increasing order. Larry broke his foot and can't walk so the only way to move the blocks is for Larry to tell Spot to fetch a toy at any index `i` and bring it to the front of the line. Given the list of Larry's toy's heights, determine the least number of fetches needed to sort the toys in increasing order.
+
+**Input Specification:**
+First line: The number of toys that Spot has (`N`)
+Second line: The heights of the toys in order of the line (guaranteed to be a permutation/reordering of the sequence `1, 2, 3, ..., N`)
+
+**Output Specification:**
+One integer: the least number of fetches needed to sort the toys in increasing order.
+
+**Constraints:**
+For all test cases: `1 ≤ N ≤ 200000`
+For 20% of the marks: `1 ≤ N ≤ 8`
+
+**Sample input 1:**
+```
+5
+2 3 4 5 1
+```
+**Sample output 1:**
+```
+1
+```
+**Reasoning:** Spot just needs to fetch the last toy, making the sequence `1 2 3 4 5`
+
+**Sample input 2:**
+```
+5
+5 4 3 2 1
+```
+**Sample output 2:**
+```
+4
+```

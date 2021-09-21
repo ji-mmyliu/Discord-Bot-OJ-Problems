@@ -1,0 +1,32 @@
+**Educational Contest 4 Problem 3 - Cat and Mouse**
+Jerry the mouse is trying to get *cheese*. The floor of Jerry's house is a 2D coordinate plane. He needs starts at a point (x1, y1) and wants to get to a cheese located at point (x2, y2). Unfortunately, Tom the cat could be blocking the way. Tom's "range of attack" is a rectangle with two opposite corners located at (a1, b1) and (a2, b2). At any time, Jerry can either travel directly up, down, left, or right as long as he does not end up *inside* Tom's attack range (he can stand on the edge of the rectangle, though). Find the minimum distance Jerry needs to travel in order to safely get to the cheese. If it is not possible for Jerry to reach the cheese safely, print `-1` instead.
+
+**Constraints:**
+`1 ≤ x1 ≤ x2 ≤ 10000`
+`1 ≤ y1 ≤ y2 ≤ 10000`
+`1 ≤ a1 ≤ a2 ≤ 10000`
+`1 ≤ b1 ≤ b2 ≤ 10000`
+For 60% of the marks, both the starting and ending points will **never** be within Tom's attack range.
+
+**Input specification:**
+First line: `x1` and `y1` - starting point (top-left)
+Second line: `x2` and `y2` - ending point (bottom-right)
+Third line: `a1` and `b1` (top-left of range rectangle)
+Fourth line: `a2` and `b2` (bottom-right of range rectangle)
+
+**Output specification:**
+One integer: the minimum distance Jerry needs to travel in order to safely get to the cheese or `-1` if this is impossible.
+
+**Sample input:**
+```
+1 1
+5 5
+2 2
+4 8
+```
+**Sample output:**
+```
+8
+```
+**Explanation:** Jerry starts at (1, 1); travels 4 units right to (5, 1), then travels 4 units down to (5, 5) to arrive at the cheese.
+Diagram of the sample input for reference: https://cdn.discordapp.com/attachments/832380218161233941/873990405862068244/unknown.png

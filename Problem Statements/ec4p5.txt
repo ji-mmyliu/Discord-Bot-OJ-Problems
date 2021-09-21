@@ -1,0 +1,27 @@
+**Educational Contest 4 Problem 5 - Can Shahir Even Find It?!**
+You may remember Shahir from "Can Shahir Even Get There?!" on DMOJ. On his prom day, he lost the keychain that he was going to give his date. He knows he dropped it somewhere in his neighbourhood of `N` nodes and `M` undirected edges. He needs to search through/traverse all the edges in his neighbourhood **exactly once**. Any more than once, he will be too tired to dance. He may begin and end on any node and visit any node any number of times. Can shahir find his keychain?
+
+**Input specification:**
+First line: Two integers `N` (`1 ≤ N ≤ 40000`) and `M` (`1 ≤ M ≤ 100000`).
+Next `M` lines: Two space separated integers `u` and `v` indicating an undirected edge `(u, v)`.
+
+**Output specification:**
+If Shahir can traverse each edge **once** and **only once**, print `GO SHAHIR!`. If not, print `NO SHAHIR!`.
+
+**Constraints:**
+For 60% of the marks: `1 ≤ N ≤ 8`
+
+**Sample input:**
+```
+4 4
+1 2
+2 3
+3 4
+4 2
+```
+**Sample output:**
+```
+GO SHAHIR!
+```
+Explanation: Shahir can take nodes `1 -> 2 -> 3 -> 4 -> 2`.
+Diagram reference: https://cdn.discordapp.com/attachments/832380218161233941/873965401254527047/unknown.png

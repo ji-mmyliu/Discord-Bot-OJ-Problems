@@ -1,0 +1,24 @@
+**Educational Contest 4 Problem 2 - Neat pencils**
+Kyler is a very tidy student. He has a row of pencils, each with certain lengths. He wants you to mess up his row of pencils (you heard right!). Given the lengths of Kyler's row of pencils, give him a **different** ordering of his original pencils; or just print `none` if no different reordering exists.
+
+**Constraints:**
+`1 ≤ N ≤ 200000`
+The lengths of the pencils will not exceed one billion.
+*Note: the lengths of the pencils are not guaranteed to be unique or in sorted order.*
+
+**Input specification:**
+First line: one integer: the number of pencils in Kyler's row
+Second line: the lengths of Kyler's row of pencils
+
+**Ouput specification:**
+*Any* distinct reordering of Kyler's pencils (on one line); OR `none` if no possible distinct reordering exists.
+
+**Sample input:**
+```
+5
+1 2 3 4 5
+```
+**Sample output:**
+```
+4 1 5 3 2
+```

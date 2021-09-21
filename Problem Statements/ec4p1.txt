@@ -1,0 +1,29 @@
+**Educational Contest 4 Problem 1 - Clicks per second**
+Allen is practicing his clicking. He clicks for `N` seconds, and you are given the number of clicks he made in each second. For each click, find his average clicks per second (cps) so far (rounded down).
+
+**Constraints:**
+For 5% of the marks, `1 ≤ N ≤ 5`
+For the remaining 95%: `1 ≤ N ≤ 200000`
+For all cases: the number of clicks he makes in a single second will not exceed one million.
+
+**Input specification:**
+First line: `N`
+Second line: `N` space-separated integers: the number of clicks that he made in each of the `N` seconds.
+
+**Output specification:**
+`N` space-separated integers: the so-far average clicks per second (rounded down) for each second.
+
+**Sample input:**
+```
+5
+4 2 2 4 2
+```
+**Sample output:**
+```
+4 3 2 3 2
+```
+**Explanation:**
+After the first click: 4 clicks in 1 second = 4 cps
+After second click: 6 clicks in 2 seconds = 3 cps
+After third click: 8 clicks in 3 seconds = 2.67 cps = 2 cps (round down)
+(and so on...)
