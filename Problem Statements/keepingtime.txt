@@ -1,0 +1,37 @@
+```
+Bob and Joe are having a competition for who can eat
+the most donuts. You are given the time that they start
+(in 24-hour time). Their competition lasts for T seconds.
+Your job is to find out when they will finish.
+However, if their competition reaches or goes past midnight (24:00:00),
+just print "Overtime".
+
+Input Specification:
+First line: Their starting time (in the format hh:mm:ss)
+Second line: The length of the competition in seconds (T)
+
+Output Specification:
+One line: The time that the competition ends, or "Overtime"
+if the competition goes past midnight (print in the same format as input).
+
+Sample input 1:
+09:30:25
+10
+
+Sample output 1:
+09:30:35
+
+Sample input 2:
+13:59:59
+1
+
+Sample output 2:
+14:00:00
+
+Sample input 3:
+23:59:58
+2
+
+Sample output 3:
+Overtime
+```

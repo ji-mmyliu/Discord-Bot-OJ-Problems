@@ -1,0 +1,25 @@
+```
+A terrible new disease COWVID-19 has spread among cows worldwide! Farmer John has decided to try to quarantine his cows as soon as possible but it's too late: M of his cows are already infected! The cows do not enjoy practising social distancing, so the total number of infected cows will get multiplied by I every week. Your task is to simulate this infecting process and see how many cows are infected after N weeks.
+
+INPUT SPECIFICATION:
+First line: three numbers separated by a space: M (initial number of cows infected), I (number of cows that an infected cow spreads to every week), and N (the number of weeks to simulate)
+
+OUTPUT SPECIFICATION:
+One integer: the total number of cows that were infected in the course of 
+N weeks at Farmer John's farm
+
+SAMPLE INPUT:
+2 3 2
+
+SAMPLE OUTPUT:
+18
+
+Reasoning: 
+We start off with 2 cows infected.
+Week 1: 2 x 3 --> 6 total
+Week 2: 6 x 3 --> 18 total
+
+CONSTRAINTS:
+For 95% of the marks: 1 ≤ M, I, N ≤ 10
+For the additional 5% marks: 1 ≤ M, I ≤ 10 ; 1 ≤ N ≤ 10^18 (For this subtask, mod the answer by 10^9+7)
+```

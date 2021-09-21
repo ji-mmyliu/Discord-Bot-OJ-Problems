@@ -1,0 +1,22 @@
+!**Educational Contest 3 Problem Senior 1 - That's Odd**
+Given an array `A` of `N` numbers, find the number of distinct ordered pairs `(i, j)` where `i < j` and `A[i] * A[j]` is an odd number. Note: only the pair of **indices** needs to be distinct, **not necessarily the numbers themselves**.
+
+**Input Specification:**
+First line: `N (1 ≤ N ≤ 200000)`
+Second line: The integers in the array `(A[1], A[2], ... A[N])`
+
+**Output Specification:**
+One integer: The number of distinct ordered pairs as specified in the problem statement.
+
+For 20% of the marks: `1 ≤ N ≤ 500`
+
+**Sample input:**
+```
+3
+1 2 3
+```
+**Sample output:**
+```
+1
+```
+**Reason:** the only pair is `(1, 3)`.

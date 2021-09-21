@@ -1,0 +1,37 @@
+**Statement**
+
+Daniel once again is bored so he decided to ask you another question!
+
+> Given an array `A` of length `N` and to integers `K` and `L` , find the number of distinct pairs `i, j (i < j)` such that the remainder when dividing `A[i] + A[j]` by `K` is `L`.
+
+**Constraints**
+
+`1 <= N <= 2 * 10^5`
+
+`1 <= L < K <= 500`
+
+`1 <= A[i] <= 10^9`
+
+**Input**
+The first line of input will contain `3` integers `N, K, L`
+
+The final line of input will contain `N` integers denoting the array `A`
+
+**Output**
+
+Output `1` integer, which is the number of distinct pairs `i, j (i < j)` such that the remainder when dividing `A[i] + A[j]` by `K` is `L`.
+
+**Sample Input**
+```
+10 4 3
+78 16 94 36 87 93 50 22 63 28
+```
+
+**Sample Output**
+```
+10
+```
+
+
+
+

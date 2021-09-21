@@ -1,0 +1,30 @@
+```
+In this problem, you are given a number.
+Your job is to find the number of whole number factors this 
+number has. However, if this number is a prime number (recall 
+that a prime number has exactly 2 factors), print "prime"
+instead.
+
+Input Specification:
+The number N on a single line. (N is a positive integer
+at most 10¹⁰.
+
+Output Specification:
+The number of whole number factors N has or "prime"
+if is a prime number.
+
+Sample input 1:
+8
+
+Sample output 1:
+4
+
+Explanation for sample case 1:
+8 has 4 factors (1, 2, 4, 8)
+
+Sample input 2:
+7
+
+Sample output 2:
+prime
+```

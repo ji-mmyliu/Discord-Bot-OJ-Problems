@@ -1,0 +1,32 @@
+```
+Welcome to Beginner's Contest 1!
+In this first problem, you are given a number "N" and
+a number "M". Your job is to find the first/smallest number
+GREATER THAN "N" that is a MULTIPLE of "M"
+
+Input Specification:
+First line: N
+Second line: M
+
+You may assume that 1 ≤ N, M ≤ 1000
+
+Output Specification:
+One integer: the first/smallest number GREATER THAN
+"N" that is a MULTIPLE of "M"
+
+Sample input 1:
+17
+10
+
+Sample output 1:
+20
+
+Sample input 2:
+10
+5
+
+Sample output 2:
+15
+
+For 50% of the marks, you can assume that "M" will always be 5.
+```

@@ -1,0 +1,31 @@
+**Educational contest 3 Problem Junior 3 / Senior 1 - Inclusion Exclusion**
+Alex loves getting those questions on math contests where they ask you `"How many numbers from 1 to n are multiples of x but not y?"` She has decided to write a program to solve it and she needs your help!
+We will modify this problem by asking `"How many numbers between L and R (inclusive) are multiples of A[1], A[2], ... and A[X] but not multiples of B[1], B[2], ... and B[Y]?"`
+
+**Input specification:**
+Line 1: Two space-separated integers: `L` and `R`
+Line 2: `X` (The number of numbers in the array `A`)
+Line 3: The numbers in the array `A` separated by spaces.
+Line 4: `Y` (The number of numbers in the array `B`)
+Line 5: The numbers in the array `B` separated by spaces.
+
+**Output specification:**
+One integer: the number of numbers between `L` and `R` that are multiples of all numbers in the array `A` but not multiples of any of the numbers in the array `B`.
+
+**Constraints:**
+`1 ≤ L ≤ R ≤ 500`
+`1 ≤ X, Y ≤ 10`
+
+**Sample input 1:**
+```
+1 15
+2
+2 3
+1
+4
+```
+**Sample output 1:**
+```
+1
+```
+**Reasoning:** The only number **between 1 and 15** that is a **multiple of both 2 and 3** but **not a multiple of 4** is 6.

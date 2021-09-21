@@ -1,0 +1,29 @@
+```
+For this problem, you will be given a list of numbers in a line (each from 1 to 10).
+Your job is to find out the number of times each number occurs.
+
+Input specification:
+The first line will contain N: The number of integers in the list
+The second line will contain the list of N numbers.
+
+Output specification:
+For each number n from 1 to 10 with frequency x, print "There are x ns"
+(For example, "There are 3 8s")
+
+
+Sample input:
+5
+3 1 2 4 1
+
+Sample output:
+There are 2 1s
+There are 1 2s
+There are 1 3s
+There are 1 4s
+There are 0 5s
+There are 0 6s
+There are 0 7s
+There are 0 8s
+There are 0 9s
+There are 0 10s
+```

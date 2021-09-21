@@ -8,9 +8,6 @@ Next `M` lines: Two space separated integers `u` and `v` indicating an undirecte
 **Output specification:**
 If Shahir can traverse each edge **once** and **only once**, print `GO SHAHIR!`. If not, print `NO SHAHIR!`.
 
-**Constraints:**
-For 60% of the marks: `1 ≤ N ≤ 8`
-
 **Sample input:**
 ```
 4 4

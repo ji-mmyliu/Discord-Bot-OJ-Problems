@@ -1,0 +1,22 @@
+**Educational contest 3 Problem Junior 1 - Bushes**
+Ben is intrigued by rectangular bushes. He has asked you to draw one for him using a program! Given a height and width of a bush, use `#` characters to draw a bush.
+
+**Input Specification:**
+First line: Two space-separated integers: `H` (height of the bush) and `W` (width of the bush)
+
+**Output Specification:**
+A bush drawing made of `#` characters with the height and width specified.
+
+**Constraints:**
+`1 ≤ H, W ≤ 100`
+
+**Sample input:**
+```
+3 5
+```
+**Sample output:**
+```
+#####
+#####
+#####
+```

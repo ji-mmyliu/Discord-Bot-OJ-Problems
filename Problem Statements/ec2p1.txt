@@ -1,0 +1,29 @@
+```
+Joe is doing some stargazing! His has one problem though: he cannot distinguish between an actual star and a helicopter! Assume that stars should only be seen at night. Given a simulation of Joe's stargazing trip, determine the number of possible stars he saw (i.e. the stars that he saw during night). The timeline of Joe's trip is given as a string of characters containing "D" for "it is day", "N" for "it is night", "C" for "change from either day to night or night to day", and "!" for when Joe sees something that he thinks is a star. Joe starts stargazing during daytime.
+
+For all test cases, there will be at most 1000 characters in the input.
+For 35% of the marks, there will only be "N" and "!" characters in the input.
+
+INPUT SPECIFICATION:
+First line: a string of characters representing the events of Joe's trip
+
+OUTPUT SPECIFICATION:
+A single integer: the number of "stars" that Joe saw during night.
+
+SAMPLE INPUT 1:
+!!N!
+
+SAMPLE OUTPUT 1:
+1
+
+Reason: only the last "!" happens during nighttime.
+
+SAMPLE INPUT 2:
+DC!!C!!
+
+SAMPLE OUTPUT 2:
+2
+
+Reason: the first two "!"s happen during night, but the "C" changes
+the time back to day right before the last two "!"s
+```

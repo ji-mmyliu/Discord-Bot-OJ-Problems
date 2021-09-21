@@ -1,0 +1,40 @@
+```
+In this problem, you are given a list of N numbers.
+We will define a "peak" as being a number in the 
+list where that number is GREATER THAN both of
+its adjacent neighbours. (This means the two numbers
+on the edges will not be peaks since they do not 
+have two neighbours). For example, in the 
+sequence [1, 5, 2] the number 5 is a "peak" since
+it is greater than both 1 and 2. However, in
+[2, 3, 3, 1] there are no peaks since there are
+no number in the sequence that is GREATER THAN
+both its neighbours. Your task is to find the number
+of such "peaks" in the list. 
+
+Input Specification:
+First line: N
+Second line: The list of numbers
+
+Output Specification:
+The number of peaks in the list.
+
+You may assume that 1 ≤ N ≤ 1000
+
+Sample input 1:
+5
+2 8 9 7 10
+
+Sample output 1:
+1
+
+Reason: Only the number 9 is a peak since
+it is greater than both its neighbours 8 and 7
+
+Sample input 2:
+7
+1 2 1 3 1 3 3
+
+Sample output 2:
+2
+```

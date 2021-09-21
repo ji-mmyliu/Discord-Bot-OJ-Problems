@@ -1,0 +1,45 @@
+**Educational contest 3 Problem Senior 2 - Mining for Diamonds**
+Steve is mining for diamonds!
+He is mining in a 2-block wide vertical mineshaft and surprisingly does not care about falling into lava so is mining straight down. Blocks of stone are represented by the character `#`, and empty spaces are represented by `.`  Steve can move to any adjacent empty block. If a block contains stone, then Steve can mine that block with his pickaxe to make it empty. He starts at the very top of the mineshaft and wants to know the fewest **blocks of stone** he will need to **mine** in order to reach the bottom of the mineshaft.
+The mineshaft is depicted as a grid of width 2 and height `N (1 ≤ N ≤ 200000)`.
+
+**INPUT SPECIFICATION**
+The first line will contain the number `N`. The next `N` lines will contain the mine as a grid with height `N` and width 2.
+
+**OUTPUT SPECIFICATION**
+Print one integer: The least number of blocks Steve needs to mine in order to reach the bottom of the mineshaft.
+
+**CONSTRAINTS**
+Subtask 1 (10 points): Each level of the mine will either contain two blocks of stone, or no blocks of stone (Either `##` or `..`).
+Subtask 2 (40 points): `1 ≤ N ≤ 20`
+Subtask 3 (50 points): No additional constraints
+
+**Sample Input 1**
+```
+6
+##
+.#
+.#
+#.
+..
+##
+```
+**Output for Sample Case 1**
+```
+3
+```
+
+**Sample Input 2**
+```
+5
+..
+..
+.#
+..
+..
+```
+**Output for Sample Case 2**
+```
+0
+```
+*Reminder that the judge allows you to submit code as a text file in case your code is too long*

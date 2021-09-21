@@ -1,0 +1,33 @@
+**Educational contest 3 Problem Junior 2 - Neighbourhood Watching**
+Kevin lost his bike! He is going around the neighbourhood asking everyone if they have seen his bike. Kevin's neighbourhood is represented by `N` houses on a number line where there is a house at each integer position. When he goes to house `i`, the people at the house will tell him to ask house `A[i]`. He will then have to walk the distance from house `i` to `A[i]`. He starts at house 1, and inevitably, after visiting a few houses, he will end back up at house 1. Given `N` and the array `A`, how much distance does Kevin travel before ending up back at house 1?
+
+**Input specification**
+First line: the number `N` (number of houses)
+Second line: the array `A`. More specifically, the numbers `A[1], A[2], ... A[N]` separated by spaces. (`A` is guaranteed to be a permutation/reordering of the sequence `1, 2, ... N`)
+
+**Output specification**
+One integer: the total distance Kevin travels before coming back to house 1.
+
+**Constraints:**
+`1 ≤ N ≤ 200000`
+
+**Sample input 1:**
+```
+5
+5 2 3 4 1
+```
+**Sample output 1:**
+```
+8
+```
+**Reason**: Kevin starts at house 1 which directs him to walk to house 5 (distance 4). House 5 directs him back to house 1 (distance 4). Kevin walks 8 units in total.
+
+**Sample input 2:**
+```
+5
+2 4 5 3 1
+```
+**Sample output 2:**
+```
+10
+```

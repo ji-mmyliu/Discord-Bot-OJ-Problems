@@ -1,0 +1,39 @@
+**Statement**
+
+Daniel just wanted to bug you again, so he decided to ask you another problem!
+
+> Given an array of `N` points on the `XY` plane, answer `Q` queries in the form `A, B` which asks the question: "If there was a line segment connecting point `(0, 0)` to point `(A, B)`, how many of the `N` points would lie on the segment?".
+
+Since Daniel is mean he asks you to write a program to solve the problem or he will make you eat poop! o_O
+
+**Constraints**
+`1 <= N, Q <= 2 * 10 ^ 5`
+
+The coordinates of the queries and points will not exceed `1000`, and are at least `1`.
+
+**Note: Coordinates need not be distinct.**
+
+**Input**
+The first line of input will contain `N` and `Q`.
+
+The next `N` lines will contain `2` integers `X` and `Y` denoting that the point `(X, Y)` is part of the array.
+
+The final `Q` lines will each contain 2 integers `X` and `Y` denoting a query.
+
+**Output**
+Output `Q` integers, on seperate lines, where the `ith` line is the answer to the `ith` query.
+
+**Sample Input**
+```
+2 1
+420 420
+69 69
+1 2
+```
+
+**Sample Output**
+```
+0
+```
+
+

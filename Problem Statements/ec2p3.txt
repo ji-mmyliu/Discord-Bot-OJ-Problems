@@ -1,0 +1,28 @@
+```
+Phil is trying to solve a math puzzle. The puzzle consists of N lights along a line, each numbered from 1 to N. Initially, all the lights are turned off, and Phil will perform N operations on this row of lights. On the Nth operation, he will toggle all lights that are a multiple of N. (Toggle means turn it on if it was off and turn it off if it was on). For example, on operation 1, he will toggle every light (and turn them on). On the second operation, he will toggle every even-numbered light, and on the third operation, he will toggle every light that is a multiple of 3, and so on until he performs operation N. Given a number N, calculate how many lights will remain on after these operations.
+
+INPUT SPECIFICATION:
+First line: the positive integer N
+ 
+OUTPUT SPECIFICATION:
+One integer: the number of lights that will be on after the operations stated.
+
+SAMPLE INPUT:
+5
+
+SAMPLE OUTPUT:
+2
+
+Explanation:
+At the start:     00000
+First operation:  11111
+Second operation: 10101
+Third operation:  10001
+Fourth operation: 10011
+Fifth operation:  10010
+(Lights 1 and 4 are still on)
+
+For 50% marks: 1 ≤ N ≤ 100
+For an additional 30%: 1 ≤ N ≤ 10^12
+For full marks: 1 ≤ N ≤ 10^18
+```
